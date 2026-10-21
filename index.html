@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Son so‘z turkumi</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="w">
+<h1>🔢 Son so‘z turkumi</h1>
+<p class="sub">Miqdor son va tartib son</p>
+<nav id="nav">
+<button data-p="t" class="on">📖 Nazariya</button>
+<button data-p="q">📝 Test</button>
+<button data-p="g1">⚡ Tez saralash</button>
+<button data-p="g2">🧠 Xotira</button>
+</nav>
+
+<section id="t">
+<div class="card"><b>Son</b> — narsaning miqdori, sanog‘i yoki tartibini bildiradigan so‘z turkumi.</div>
+<div class="g2">
+<div class="card"><span class="tag">Miqdor son</span>
+<p>Savollari: <b>nechta? qancha? necha?</b></p>
+<p>Misollar: bir, besh, oʻn, yigirma, yuz, ming.</p>
+<p class="mu">Turlari: sanoq (besh), dona (beshta), chama (oʻntacha), taqsim (beshtadan), jamlovchi (beshovi).</p></div>
+<div class="card"><span class="tag t">Tartib son</span>
+<p>Savoli: <b>nechanchi? nechinchi?</b></p>
+<p>Misollar: birinchi, ikkinchi, beshinchi, oʻninchi.</p>
+<p class="mu">Qoʻshimchasi: <b>-inchi</b> (undoshdan keyin), <b>-nchi</b> (unlidan keyin).</p></div>
+</div>
+<div class="card"><b>Eslab qoling:</b>
+<p>besh → besh<b>inchi</b> &nbsp;|&nbsp; ikki → ikki<b>nchi</b> &nbsp;|&nbsp; yetti → yetti<b>nchi</b> &nbsp;|&nbsp; oʻn → oʻn<b>inchi</b></p>
+<p>Gapda: <i>“Men <u>ikkinchi</u> qavatda yashayman.”</i> — tartib son; <i>“<u>Ikkita</u> kitob oldim.”</i> — miqdor son.</p></div>
+</section>
+
+<section id="q" hidden></section>
+
+<section id="g1" hidden>
+<div class="card c"><div class="bar"><i id="tb"></i></div>
+<div>Vaqt: <b id="gt">30</b> s &nbsp; Ball: <b id="gs">0</b></div>
+<div class="big" id="gw">Boshlash uchun bosing</div>
+<div class="row"><button class="btn" id="bm">Miqdor son</button><button class="btn" id="bt">Tartib son</button></div>
+<p><button class="btn p" id="gstart">▶ Boshlash</button></p></div>
+</section>
+
+<section id="g2" hidden>
+<div class="card"><div class="c">Yurishlar: <b id="mv">0</b> &nbsp; <button class="btn" id="mr">↻ Qaytadan</button></div></div>
+<div class="mem" id="mg"></div>
+<p class="c mu" id="mm">Raqam va uning soʻzini toping.</p>
+</section>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
